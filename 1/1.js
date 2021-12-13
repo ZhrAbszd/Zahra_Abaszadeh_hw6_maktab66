@@ -12,7 +12,7 @@ function Count(str1, str2) {
     }
     return counter 
 }
-console.log(Count("aabcc", "adcaa"))
+console.log(Count("aabcc", "adcaa"))   // 3
 
 //************************************************//
 
@@ -31,7 +31,7 @@ function commonCount(str1,str2){
     }
     return counter
 }
-console.log(commonCount("aabcc","adcaa"))
+console.log(commonCount("aabcc","adcaa"))   // 3
 
 //************************************************//
 
@@ -50,7 +50,7 @@ function SameCount(str1, str2) {
     return counter
   }
   
-console.log(SameCount("aabcc", "adcaa"))
+console.log(SameCount("aabcc", "adcaa"))   // 3
 
 
 
