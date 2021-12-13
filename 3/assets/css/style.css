@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.header span {
+    color: white;
+    background-color: black;
+    padding: 2px 8px;
+    text-align: center;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+}
+.leftSide {
+    flex-basis: 65%;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card img{
+    width: 100%;
+}
+h3 {
+    font-size: 24px;
+}
+.opacity {
+    font-size: 18px;
+    opacity: 0.60;
+}
+.Comment {
+    padding-right: 1rem;
+    font-weight: 600;
+}
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.8rem;
+}
+.description {
+    width: 93%;
+}
+.footerCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+.button {
+    background-color: white;
+    font-size: 17px;
+    padding: 13px 16px;
+    border: 1px solid black;
+}
+.zero {
+    background-color: black;
+    color: white;
+    padding: 0 8px;
+    display: inline-block;
+}
+.rightSide {
+    flex-basis: 29%;
+}
