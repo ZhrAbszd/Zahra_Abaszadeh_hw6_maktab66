@@ -26,6 +26,7 @@ h1 {
 .main {
     display: flex;
     justify-content: space-around;
+    margin: 0 2rem;
 }
 .leftSide {
     flex-basis: 65%;
@@ -54,7 +55,7 @@ h3 {
     padding-bottom: 0.8rem;
 }
 .description {
-    width: 93%;
+    width: 97%;
 }
 .footerCard{
     display: flex;
@@ -195,4 +196,10 @@ ul {
 a {
     color: white;
     user-select: none;
+}
+
+@media only screen and (max-width: 992px)  {
+    .main{
+        flex-direction: column;
+    }
 }
